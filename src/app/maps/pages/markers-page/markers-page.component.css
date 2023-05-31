@@ -11,7 +11,7 @@
   top: 20px;
 }
 
-button {
+.createMarker {
   bottom: 30px;
   position: fixed;
   right: 20px;

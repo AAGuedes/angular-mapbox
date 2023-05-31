@@ -65,6 +65,10 @@ export class MarkersPageComponent {
     });
 
     this.saveToLocalStorage();
+
+    marker.on('dragend',(event) => {
+      this.saveToLocalStorage();
+    });
   }
 
   deleteMarker(index: number): void {
