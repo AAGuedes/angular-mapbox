@@ -3,6 +3,5 @@ maps-side-menu {
   left: 20px;
   position: fixed;
   top: 20px;
-  width: 200px;
   z-index: 999;
 }
