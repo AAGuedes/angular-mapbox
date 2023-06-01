@@ -3,7 +3,6 @@ import { Map } from 'mapbox-gl';
 
 
 @Component({
-  selector: 'app-full-screen-page',
   templateUrl: './full-screen-page.component.html',
   styleUrls: ['./full-screen-page.component.css']
 })
