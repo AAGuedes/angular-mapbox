@@ -14,6 +14,8 @@ import { PropertiesPageComponent } from './pages/properties-page/properties-page
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { ZoomPageComponent } from './pages/zoom-page/zoom-page.component';
 
+import { CounterAloneComponent } from '../alone/components/counter-alone/counter-alone.component';
+
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { ZoomPageComponent } from './pages/zoom-page/zoom-page.component';
   imports: [
     CommonModule,
     MapsRoutingModule,
+    CounterAloneComponent,
   ]
 })
 export class MapsModule { }
